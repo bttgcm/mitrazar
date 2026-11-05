@@ -3,7 +3,10 @@
 // pin position comes from either an explicit `lat`/`lon` pair, or a
 // `location` (or just `title`) place name that gets geocoded via OpenStreetMap's
 // Nominatim API and cached in data/.geocode-cache.json.
-// photos/ (any image files) and videos.txt (Title|URL per line) are optional.
+// photos/ (any image files) and videos.txt are optional. Each videos.txt
+// line is `Title|value`, where value is either a direct media URL (played
+// in a native <video> tag) or a pasted <iframe>/embed snippet from a
+// provider like Vimeo or YouTube's "Share -> Embed" (rendered as-is).
 'use strict';
 
 const fs = require('fs');
@@ -51,7 +54,11 @@ function readVideos(file) {
     .map((l) => l.trim())
     .filter((l) => l && !l.startsWith('#'))
     .map((l) => {
-      const [title, url] = l.split('|').map((s) => (s || '').trim());
+      // Split on the first "|" only — an embed snippet can legitimately
+      // contain more pipes further in (e.g. inside a query string).
+      const sep = l.indexOf('|');
+      const title = (sep === -1 ? '' : l.slice(0, sep)).trim();
+      const url = (sep === -1 ? l : l.slice(sep + 1)).trim();
       return { title: title || 'Video', url };
     })
     .filter((v) => v.url);

@@ -259,11 +259,21 @@ function renderLightboxItem(index) {
   lightboxContent.innerHTML = '';
 
   if (item.type === 'video') {
-    const video = document.createElement('video');
-    video.src = item.url;
-    video.controls = true;
-    video.autoplay = true;
-    lightboxContent.appendChild(video);
+    if (item.url.trim().startsWith('<')) {
+      // A pasted provider embed snippet (Vimeo/YouTube "Share > Embed"),
+      // authored by the site owner via videos.txt — not public input, so
+      // injecting it is the same trust level as writing it in this file.
+      const wrap = document.createElement('div');
+      wrap.className = 'embed-wrap';
+      wrap.innerHTML = item.url;
+      lightboxContent.appendChild(wrap);
+    } else {
+      const video = document.createElement('video');
+      video.src = item.url;
+      video.controls = true;
+      video.autoplay = true;
+      lightboxContent.appendChild(video);
+    }
   } else {
     const img = document.createElement('img');
     img.src = item.src;

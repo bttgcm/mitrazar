@@ -1,2 +1,5 @@
-# One line per video: Title|URL
+# One line per video: Title|value
+# value is either a direct media URL (.mp4/.webm) or a pasted embed
+# snippet from Vimeo/YouTube's "Share > Embed" button, e.g.:
+# My Clip|<iframe src="https://player.vimeo.com/video/VIDEO_ID" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 Balloons at Sunrise|https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4
