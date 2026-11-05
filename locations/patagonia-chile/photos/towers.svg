@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#203a4a"/>
+  <polygon points="300,480 340,180 380,480" fill="#6e7a85"/>
+  <polygon points="380,480 420,140 460,480" fill="#8a97a2"/>
+  <polygon points="460,480 500,200 540,480" fill="#6e7a85"/>
+  <text x="400" y="540" font-family="Georgia, serif" font-size="32" fill="#fff" text-anchor="middle">The Towers</text>
+</svg>

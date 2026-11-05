@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0d1b2e"/>
+  <circle cx="400" cy="280" r="140" fill="#1f6f5c" opacity="0.55"/>
+  <text x="400" y="320" font-family="Georgia, serif" font-size="30" fill="#fff" text-anchor="middle">Aurora Ridge</text>
+</svg>

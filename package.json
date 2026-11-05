@@ -1,0 +1,10 @@
+{
+  "name": "mitra-website",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Photo/video portfolio site with a rotating globe landing page.",
+  "scripts": {
+    "build": "node scripts/generate-manifest.js",
+    "start": "node scripts/serve.js"
+  }
+}

@@ -1,0 +1,343 @@
+:root {
+  --bg: #05070d;
+  --ink: #f2f2f0;
+  --ink-dim: #b9bcc4;
+  --accent: #ff5a3c;
+  --panel: #10131c;
+  --panel-border: #262a38;
+  --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  height: 100%;
+}
+
+/* Headlines: Inter Bold — a dense, functional grotesk (built for data-heavy
+   UI, not fashion display type) that reads sharp and dispatch-like rather
+   than styled. */
+.site-header .logo,
+.page h1,
+.modal-content h2 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* ---------- Header ---------- */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  pointer-events: none;
+}
+
+.site-header .logo,
+.site-header nav a {
+  pointer-events: auto;
+}
+
+.site-header .logo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.site-header nav a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  transition: color 0.2s ease;
+}
+
+.site-header nav a:hover,
+.site-header nav a.active {
+  color: var(--ink);
+}
+
+/* ---------- Home / globe ---------- */
+#globe-container {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}
+
+#globe-container canvas { display: block; }
+
+#globe-hint {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--ink-dim);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.pin-tooltip {
+  position: fixed;
+  z-index: 20;
+  pointer-events: none;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  color: var(--ink);
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  transform: translate(14px, -50%);
+}
+
+.pin-tooltip.hidden { display: none; }
+
+#loading {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink-dim);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  z-index: 2;
+}
+
+/* ---------- Static pages (About / Collaborate) ---------- */
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 9rem 2rem 6rem;
+}
+
+.page h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.04em;
+}
+
+.page p {
+  color: var(--ink-dim);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.page .portrait {
+  width: 280px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid var(--panel-border);
+  margin-bottom: 2rem;
+  display: block;
+}
+
+/* ---------- Modal ---------- */
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 3, 6, 0.72);
+  backdrop-filter: blur(4px);
+}
+
+.modal.hidden { display: none; }
+
+.modal-content {
+  position: relative;
+  width: min(640px, 90vw);
+  max-height: 82vh;
+  overflow-y: auto;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  padding: 2.2rem;
+}
+
+.modal-content h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+}
+
+.modal-content .modal-body {
+  color: var(--ink-dim);
+  line-height: 1.7;
+  margin-bottom: 1.6rem;
+  white-space: pre-line;
+}
+
+.modal-content h3 {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin: 1.4rem 0 0.7rem;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: var(--ink-dim);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.modal-close:hover { color: var(--ink); }
+
+.thumb-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.thumb {
+  width: 120px;
+  height: 90px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid var(--panel-border);
+  background: #000;
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.thumb:hover img { transform: scale(1.06); }
+
+.thumb.video-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1c2030, #0d0f17);
+  text-align: center;
+  padding: 0.4rem;
+}
+
+.thumb.video-thumb .video-title {
+  font-size: 0.7rem;
+  color: var(--ink-dim);
+  margin-top: 1.4rem;
+}
+
+.thumb.video-thumb .play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -62%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 9px 0 9px 15px;
+  border-color: transparent transparent transparent var(--accent);
+}
+
+/* ---------- Lightbox ---------- */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.92);
+}
+
+.lightbox.hidden { display: none; }
+
+#lightbox-content img,
+#lightbox-content video {
+  max-width: 88vw;
+  max-height: 86vh;
+  display: block;
+  border-radius: 4px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.6rem;
+  background: none;
+  border: none;
+  color: var(--ink-dim);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lightbox-close:hover { color: var(--ink); }
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--panel-border);
+  color: var(--ink);
+  font-size: 1.8rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.lightbox-nav:hover { background: rgba(255, 255, 255, 0.16); }
+.lightbox-nav.hidden { display: none; }
+.lightbox-prev { left: 1.5rem; }
+.lightbox-next { right: 1.5rem; }
+
+.lightbox-counter {
+  position: absolute;
+  bottom: 1.4rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--ink-dim);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+.lightbox-counter.hidden { display: none; }

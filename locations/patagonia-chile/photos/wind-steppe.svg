@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#3a4a2e"/>
+  <rect y="350" width="800" height="250" fill="#5c6e3f"/>
+  <ellipse cx="400" cy="200" rx="260" ry="60" fill="#c9d4c0" opacity="0.6"/>
+  <text x="400" y="320" font-family="Georgia, serif" font-size="32" fill="#fff" text-anchor="middle">Wind Steppe</text>
+</svg>

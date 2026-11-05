@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#2e1d3a"/>
+  <circle cx="400" cy="280" r="140" fill="#e0ab3e" opacity="0.55"/>
+  <text x="400" y="320" font-family="Georgia, serif" font-size="30" fill="#fff" text-anchor="middle">Dia de los Muertos</text>
+</svg>

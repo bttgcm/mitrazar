@@ -1,0 +1,10 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Dependencies (none committed — scripts/ use zero npm dependencies)
+node_modules/
+
+# Stock photos without confirmed publishing rights — never commit these
+locations/kyoto-japan/photos/GettyImages-*.jpg
+locations/kyoto-japan/photos/Temple-Kiyomizu-dera-*.jpg

@@ -1,0 +1,2 @@
+# One line per video: Title|URL
+Lantern Festival on the River|https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4

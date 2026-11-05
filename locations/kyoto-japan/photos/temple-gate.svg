@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#2b2b3a"/>
+  <rect x="150" y="150" width="500" height="320" fill="#8c1f28"/>
+  <rect x="150" y="150" width="500" height="40" fill="#5c141b"/>
+  <text x="400" y="320" font-family="Georgia, serif" font-size="32" fill="#fff" text-anchor="middle">Temple Gate</text>
+</svg>

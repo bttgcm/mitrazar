@@ -1,0 +1,228 @@
+[
+  {
+    "slug": "cappadocia-turkey",
+    "title": "Cappadocia, Turkey",
+    "lat": 38.6431,
+    "lon": 34.8289,
+    "body": "Up before 5am most days to catch the balloon launches from the valley\nfloor. The rock formations look completely different depending on which\nside the light's coming from — spent a lot of time just repositioning.",
+    "photos": [
+      "locations/cappadocia-turkey/photos/balloon-valley.svg",
+      "locations/cappadocia-turkey/photos/fairy-chimneys.svg"
+    ],
+    "videos": [
+      {
+        "title": "Balloons at Sunrise",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "dolomites-italy",
+    "title": "Dolomites, Italy",
+    "lat": 46.4102,
+    "lon": 11.844,
+    "body": "Four days hiking between rifugios with just enough gear to keep it light.\nThe enrosadira — the way the peaks turn pink at sunset — is the reason\neveryone says to come here, and it's the reason.",
+    "photos": [
+      "locations/dolomites-italy/photos/enrosadira.svg",
+      "locations/dolomites-italy/photos/rifugio-trail.svg"
+    ],
+    "videos": [
+      {
+        "title": "Enrosadira",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "havana-cuba",
+    "title": "Havana, Cuba",
+    "lat": 23.1136,
+    "lon": -82.3666,
+    "body": "Shot on foot through Centro Habana and along the Malecón at golden hour,\nwhen the sea spray catches the light. Color came easy here — the hard\npart was keeping the gear dry.",
+    "photos": [
+      "locations/havana-cuba/photos/centro-habana.svg",
+      "locations/havana-cuba/photos/malecon.svg"
+    ],
+    "videos": [
+      {
+        "title": "Malecón at Golden Hour",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "hoi-an-vietnam",
+    "title": "Hoi An, Vietnam",
+    "lat": 15.8801,
+    "lon": 108.338,
+    "body": "Timed the trip around the lantern festival on the river. Shot the old\ntown mostly at blue hour, right when the paper lanterns start to\noutshine the streetlights.",
+    "photos": [
+      "locations/hoi-an-vietnam/photos/lantern-river.svg",
+      "locations/hoi-an-vietnam/photos/old-town-blue-hour.svg"
+    ],
+    "videos": [
+      {
+        "title": "Lantern Festival on the River",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "kurdistan",
+    "title": "Kurdistan",
+    "lat": 36.1911744,
+    "lon": 44.0094145,
+    "body": "A season based out of Erbil, working outward into the surrounding\nvillages and the citadel old town. Kurdistan isn't a single point on a\nmap, so this pin marks the base the work was shot from rather than the\nwhole region.",
+    "photos": [
+      "locations/kurdistan/photos/erbil-citadel.svg"
+    ],
+    "videos": [
+      {
+        "title": "Erbil Citadel at Dusk",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "kyoto-japan",
+    "title": "Kyoto, Japan",
+    "lat": 35.0116,
+    "lon": 135.7681,
+    "body": "Autumn in Kyoto. Three weeks following the color of the maples through\nArashiyama and the backstreets of Gion, shooting mostly at dawn before the\ncrowds arrived. The light through the bamboo groves ended up being the\nwhole story.",
+    "photos": [
+      "locations/kyoto-japan/photos/bamboo-path.svg",
+      "locations/kyoto-japan/photos/maple-grove.svg",
+      "locations/kyoto-japan/photos/temple-gate.svg"
+    ],
+    "videos": [
+      {
+        "title": "Arashiyama at Dawn",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      },
+      {
+        "title": "Gion Backstreets",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "lofoten-norway",
+    "title": "Lofoten, Norway",
+    "lat": 68.1497,
+    "lon": 13.6113,
+    "body": "Midnight sun shooting — meant entire days with no real darkness to plan\naround. Mostly fishing villages and the mountains dropping straight into\nthe fjords. Slept badly, shot well.",
+    "photos": [
+      "locations/lofoten-norway/photos/fishing-village.svg",
+      "locations/lofoten-norway/photos/midnight-sun.svg"
+    ],
+    "videos": [
+      {
+        "title": "Midnight Sun Over the Fjords",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "marrakech-morocco",
+    "title": "Marrakech, Morocco",
+    "lat": 31.6295,
+    "lon": -7.9811,
+    "body": "A week in the medina shooting mostly handheld and wide. The light in\nJemaa el-Fnaa changes completely between noon and dusk — ended up going\nback to the same square four evenings in a row to get the smoke and the\ncrowd right.",
+    "photos": [
+      "locations/marrakech-morocco/photos/jemaa-el-fnaa.svg",
+      "locations/marrakech-morocco/photos/medina-alley.svg"
+    ],
+    "videos": [
+      {
+        "title": "Jemaa el-Fnaa at Dusk",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "namib-desert-namibia",
+    "title": "Namib Desert, Namibia",
+    "lat": -24.7461,
+    "lon": 15.442,
+    "body": "Climbed the dunes at Sossusvlei before sunrise to get the ridge lines\nwhile the sand was still cool. The contrast between the red dunes and\nthe dead white clay pan at Deadvlei did most of the work for me.",
+    "photos": [
+      "locations/namib-desert-namibia/photos/deadvlei.svg",
+      "locations/namib-desert-namibia/photos/sossusvlei-dunes.svg"
+    ],
+    "videos": [
+      {
+        "title": "Sunrise at Deadvlei",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "oaxaca-mexico",
+    "title": "Oaxaca, Mexico",
+    "lat": 17.0732,
+    "lon": -96.7266,
+    "body": "Covered Día de los Muertos for most of this set — markets, altars, and\nthe cemetery vigils at Xoxocotlán. Loud, bright, and completely unlike\nhow it gets described secondhand.",
+    "photos": [
+      "locations/oaxaca-mexico/photos/dia-de-muertos.svg",
+      "locations/oaxaca-mexico/photos/xoxocotlan.svg"
+    ],
+    "videos": [
+      {
+        "title": "Vigil at Xoxocotlán",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "patagonia-chile",
+    "title": "Patagonia, Chile",
+    "lat": -50.9423,
+    "lon": -73.4068,
+    "body": "Six days in Torres del Paine waiting out weather that changes every twenty\nminutes. The wind made the tripod useless half the time, so most of this\nset ended up handheld. Worth it for the one morning the towers cleared.",
+    "photos": [
+      "locations/patagonia-chile/photos/lake.svg",
+      "locations/patagonia-chile/photos/towers.svg",
+      "locations/patagonia-chile/photos/wind-steppe.svg"
+    ],
+    "videos": [
+      {
+        "title": "Torres del Paine Clearing",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "reykjavik-iceland",
+    "title": "Reykjavik, Iceland",
+    "lat": 64.1466,
+    "lon": -21.9426,
+    "body": "Ten days chasing aurora forecasts that kept lying. Spent most nights on\nblack-sand coastlines west of the city, waiting out clouds. Got maybe\nforty minutes of real sky across the whole trip — made every one of them\ncount.",
+    "photos": [
+      "locations/reykjavik-iceland/photos/aurora-ridge.svg",
+      "locations/reykjavik-iceland/photos/black-sand-coast.svg"
+    ],
+    "videos": [
+      {
+        "title": "Aurora Over the Coast",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  },
+  {
+    "slug": "varanasi-india",
+    "title": "Varanasi, India",
+    "lat": 25.3176,
+    "lon": 82.9739,
+    "body": "Five mornings on the ghats starting before sunrise. The light off the\nGanges does something to color temperature I haven't seen anywhere else.\nShot almost entirely from a rented boat to stay out of the way.",
+    "photos": [
+      "locations/varanasi-india/photos/dawn-boats.svg",
+      "locations/varanasi-india/photos/ganges-ghats.svg"
+    ],
+    "videos": [
+      {
+        "title": "Dawn on the Ghats",
+        "url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      }
+    ]
+  }
+]
